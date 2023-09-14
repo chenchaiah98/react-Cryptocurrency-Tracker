@@ -3,20 +3,27 @@
   color: #00e7ff;
 }
 .CryptocurrenciesList-main-table {
-  width: 80%;
+  width: 90%;
   border: 2px solid #00e7ff;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .CryptocurrenciesList-main-table th,
 td {
+  justify-content: space-between;
   width: 100px;
 }
-/* .CryptocurrenciesList-main-table-type {
+.CryptocurrenciesList-main-table-type {
   width: 50%;
-} */
+}
 .CryptocurrenciesList-main-table-icon {
   height: 30px;
 }
-.d-none {
-  visibility: hidden;
+.CryptocurrenciesList-main-table-item {
+  display: flex;
+}
+.table-heading {
+  background-color: #092e33;
 }

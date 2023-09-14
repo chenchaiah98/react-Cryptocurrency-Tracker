@@ -1,1 +1,5 @@
 /* Write your CSS code here */
+.CryptocurrenciesList-main-table-item {
+  display: flex;
+  justify-content: space-between;
+}

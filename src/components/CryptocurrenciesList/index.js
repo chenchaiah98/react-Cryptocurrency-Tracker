@@ -24,12 +24,10 @@ class CryptocurrenciesList extends Component {
     const {data} = this.state
 
     return (
-      <>
-        <div>
-          <h1 className="CryptocurrenciesList-main-heading">
-            Cryptocurrency Tracker
-          </h1>
-        </div>
+      <div>
+        <h1 className="CryptocurrenciesList-main-heading">
+          Cryptocurrency Tracker
+        </h1>
         <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/cryptocurrency-bg.png"
@@ -37,21 +35,24 @@ class CryptocurrenciesList extends Component {
           />
         </div>
         <div>
-          <table className="CryptocurrenciesList-main-table ">
-            <tr>
-              <th className="d-none">1</th>
-              <th className="CryptocurrenciesList-main-table-type">
-                Coin Type
-              </th>
-              <th>USD</th>
-              <th>EURO</th>
-            </tr>
+          <div className="CryptocurrenciesList-main-table ">
+            <div className="CryptocurrenciesList-main-table-item table-heading">
+              <div className="CryptocurrenciesList-main-table-type">
+                <p>Coin Type</p>
+              </div>
+              <div>
+                <p>USD</p>
+              </div>
+              <div>
+                <p>EURO</p>
+              </div>
+            </div>
             {data.map(eachItem => (
               <CryptocurrencyItem eachValue={eachItem} key={eachItem.id} />
             ))}
-          </table>
+          </div>
         </div>
-      </>
+      </div>
     )
   }
 }
