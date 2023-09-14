@@ -1,0 +1,11 @@
+/* Write your CSS here */
+
+.cryptoCurrencyTracker-main-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

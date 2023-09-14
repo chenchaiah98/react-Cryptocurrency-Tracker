@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.CryptocurrenciesList-main-heading {
+  color: #00e7ff;
+}
+.CryptocurrenciesList-main-table {
+  width: 80%;
+  border: 2px solid #00e7ff;
+  color: #ffffff;
+}
+.CryptocurrenciesList-main-table th,
+td {
+  width: 100px;
+}
+/* .CryptocurrenciesList-main-table-type {
+  width: 50%;
+} */
+.CryptocurrenciesList-main-table-icon {
+  height: 30px;
+}
+.d-none {
+  visibility: hidden;
+}
