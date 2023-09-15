@@ -1,4 +1,7 @@
 /* Write your CSS code here */
+.CryptocurrenciesList-main-table-type {
+  display: flex;
+}
 .CryptocurrenciesList-main-table-item {
   display: flex;
   justify-content: space-between;

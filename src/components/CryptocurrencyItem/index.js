@@ -5,16 +5,14 @@ const CryptocurrencyItem = props => {
   const {eachValue} = props
 
   return (
-    <div className="CryptocurrenciesList-main-table-item">
+    <li className="CryptocurrenciesList-main-table-item">
       <div className="CryptocurrenciesList-main-table-type">
-        <i>
-          <img
-            className="CryptocurrenciesList-main-table-icon"
-            src={eachValue.currency_logo}
-            alt={eachValue.currency_name}
-          />
-        </i>
-        {eachValue.currency_name}
+        <img
+          className="CryptocurrenciesList-main-table-icon"
+          src={eachValue.currency_logo}
+          alt={eachValue.currency_name}
+        />
+        <p>{eachValue.currency_name}</p>
       </div>
       <div>
         <p>{eachValue.usd_value}</p>
@@ -22,7 +20,7 @@ const CryptocurrencyItem = props => {
       <div>
         <p>{eachValue.euro_value}</p>
       </div>
-    </div>
+    </li>
   )
 }
 
