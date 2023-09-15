@@ -7,11 +7,13 @@ const CryptocurrencyItem = props => {
   return (
     <div className="CryptocurrenciesList-main-table-item">
       <div className="CryptocurrenciesList-main-table-type">
-        <img
-          className="CryptocurrenciesList-main-table-icon"
-          src={eachValue.currency_logo}
-          alt={eachValue.currency_name}
-        />
+        <i>
+          <img
+            className="CryptocurrenciesList-main-table-icon"
+            src={eachValue.currency_logo}
+            alt={eachValue.currency_name}
+          />
+        </i>
         {eachValue.currency_name}
       </div>
       <div>

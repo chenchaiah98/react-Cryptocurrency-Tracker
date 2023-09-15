@@ -24,7 +24,7 @@ class CryptocurrenciesList extends Component {
     const {data} = this.state
 
     return (
-      <div>
+      <>
         <h1 className="CryptocurrenciesList-main-heading">
           Cryptocurrency Tracker
         </h1>
@@ -52,7 +52,7 @@ class CryptocurrenciesList extends Component {
             ))}
           </div>
         </div>
-      </div>
+      </>
     )
   }
 }

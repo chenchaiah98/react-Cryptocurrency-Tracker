@@ -3,3 +3,9 @@
   display: flex;
   justify-content: space-between;
 }
+.CryptocurrenciesList-main-table-item div {
+  width: 200px;
+}
+.CryptocurrenciesList-main-table-icon {
+  margin-right: 10px;
+}
